@@ -13,3 +13,8 @@ var student = {
     lastName : 'Celia',
     age:  2021 - 1989,
 } 
+console.log(student);
+// 2.
+for(var key in student){
+    console.log(student[key]);
+}
