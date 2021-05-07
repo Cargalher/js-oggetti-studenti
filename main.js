@@ -60,19 +60,14 @@ for(var i = 0; i < students.length; i++) {
    var alumn = students [i];
     console.log(alumn.name, alumn.lastName);
 }
-
-
-   
+ 
 
 // 5.
-// var newStudent = {
-//         name:'Carla',
-//         lastName : 'Ruiz',
-//         age:  2021 - 1990,
 
-// }
 
-// students.push(newStudent);
+var questionName = prompt ("Insert your name: ");
+var questionLastName = prompt ("Insert your lastname: ");
+var questionAge = prompt ("Insert your age: ");
 
-// console.log(students);
-// var addNewStudent = prompt ("Insert new student details: name, lastname and age: ");
+students.push(questionName, questionLastName, questionAge);
+console.log(students);
