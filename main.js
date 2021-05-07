@@ -14,7 +14,43 @@ var student = {
     age:  2021 - 1989,
 } 
 console.log(student);
+
 // 2.
 for(var key in student){
     console.log(student[key]);
 }
+
+// 3.
+
+var students = [
+
+    {
+       name:'Federico',
+       lastName : 'Celia',
+       age:  2021 - 1989,
+
+    },
+
+    {
+        name:'Carmen',
+        lastName : 'Galan',
+        age:  2021 - 1986,
+
+    },
+
+    {
+        name:'Leonardo',
+        lastName : 'DiCaprio',
+        age:  2021 - 1979,
+
+    },
+
+    {
+        name:'Penelope',
+        lastName : 'Cruz',
+        age:  2021 - 1975,
+
+    },
+]
+
+console.log(students);
