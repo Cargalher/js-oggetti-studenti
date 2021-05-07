@@ -67,7 +67,9 @@ for(var i = 0; i < students.length; i++) {
 
 var questionName = prompt ("Insert your name: ");
 var questionLastName = prompt ("Insert your lastname: ");
-var questionAge = prompt ("Insert your age: ");
+var questionAge = Number (prompt ("Insert your age: "));
 
-students.push(questionName, questionLastName, questionAge);
+var newStudent = {'name':questionName, 'lastname':questionLastName, 'age':questionAge};
+students.push(newStudent);
+
 console.log(students);
