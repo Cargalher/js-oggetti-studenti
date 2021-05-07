@@ -7,7 +7,7 @@
 
 
 
-// 1.
+// // 1.
 var student = {
     'name' : 'Federico',
     lastName : 'Celia',
@@ -15,7 +15,7 @@ var student = {
 } 
 console.log(student);
 
-// 2.
+// // 2.
 for(var key in student){
     console.log(student[key]);
 }
@@ -54,3 +54,25 @@ var students = [
 ]
 
 console.log(students);
+
+// 4.
+for(var i = 0; i < students.length; i++) {
+   var alumn = students [i];
+    console.log(alumn.name, alumn.lastName);
+}
+
+
+   
+
+// 5.
+// var newStudent = {
+//         name:'Carla',
+//         lastName : 'Ruiz',
+//         age:  2021 - 1990,
+
+// }
+
+// students.push(newStudent);
+
+// console.log(students);
+// var addNewStudent = prompt ("Insert new student details: name, lastname and age: ");
