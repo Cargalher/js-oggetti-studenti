@@ -51,6 +51,7 @@ var students = [
         age:  2021 - 1975,
 
     },
+    
 ]
 
 console.log(students);
@@ -73,3 +74,14 @@ var newStudent = {'name':questionName, 'lastname':questionLastName, 'age':questi
 students.push(newStudent);
 
 console.log(students);
+
+
+
+// fabio's way to do the last part:
+/*
+students.push({
+    name:prompt ("Insert your name: "),
+    lastName :  prompt ("Insert your lastname: "),
+    age: parseInt (prompt ("Insert your age: "))
+})
+console.log(students);*/
